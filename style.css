@@ -66,3 +66,14 @@ h2{
     color: white;
     text-align: center;
 }
+@media only screen and (max-width: 600px  ){
+   .li,.li a{
+      display: none;
+    }
+    .navbar img{
+        margin-left: 10px;
+    }
+    .banner{
+        height: 400vh;
+    }
+}
